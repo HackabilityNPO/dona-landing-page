@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Hackability" />
-    <div className="w-full bg-green-400 pt-4 pb-4">
+    <div className="w-full bg-green-800 pt-4 pb-4">
       <div className="max-w-lg mx-auto">
         <h1 className="text-center text-white text-4xl mb-4 px-2">
           Viaggio Italia 4 Hackability
@@ -28,7 +28,7 @@ const IndexPage = () => (
 
       <div className="text-center mt-4">
         <a
-          className="inline-block text-white  m-auto px-4 py-2 text-xl font-semibold bg-green-600 hover:bg-green-800 rounded shadow"
+          className="inline-block text-white  m-auto px-4 py-2 text-xl font-semibold bg-green-700 hover:bg-green-900 rounded shadow"
           href="https://www.produzionidalbasso.com/project/viaggio-italia4hackability/"
         >
           Scopri la campagna!
@@ -43,6 +43,17 @@ const IndexPage = () => (
           Italia.
         </p>
       </div>
+
+      <footer className="text-center py-10">
+        Progettato da Ludovico and Carlo su
+        <a
+          className="font-bold"
+          href="https://www.youtube.com/watch?v=JMmsO0VxMZk"
+        >
+          {" "}
+          YouTube!{" "}
+        </a>
+      </footer>
     </div>
   </Layout>
 )
