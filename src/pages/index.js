@@ -36,7 +36,7 @@ const IndexPage = () => (
       </div>
 
       <div className="text-center mt-4 mx-2">
-        <p className="text-lg text-green-900">
+        <p className="text-2xl text-green-900">
           ViaggioItalia4Hackability è una campagna di raccolta di donazioni,
           nata su iniziativa di Viaggio Italia e Hackability, per sostenere un
           progetto per l’autonomia, che Hackability sta lanciando su tutta
